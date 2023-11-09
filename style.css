@@ -1,37 +1,52 @@
-.fejlec{
+.fejlec {
     background-image: url(kepek/hero.jpg);
     height: 100vh;
     background-size: cover;
     color: white;
     text-align: center;
+    padding: 10px;
 }
-.tarolo{
-    max-width: 800px;
-    width: 80%;
+.tarolo {
+    width: 60%;
     margin: auto;
 }
-.menu ul{
+h1 {
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h2 {
+    margin: 20px;
+}
+p {
+    margin: 20px;
+}
+.jelzes {
+    text-align: left;
+}
+.menu ul {
     list-style-type: none;
-    padding:0;
-    display:grid;
+    padding: 0;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+    border-radius: 20px;
+    border: 2px orange;
 }
 .menu ul li {
     text-decoration: none;
     color: white;
-    background-color: rgb(255, 153, 0);
     border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+    background-color: rgb(216, 115, 32);
+    width: 150px;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: auto;
 }
-a{
-    text-decoration: none;
-    color: white;
-    background-color: rgb(255, 153, 0);
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+.menu ul li:hover{
+    background-color: wheat;
+    color: black;
 }
 .menu ul li a:hover{
     color: black;
@@ -40,33 +55,118 @@ a{
     background-color: white;
     color: black;
 }
-a:hover{
-    background-color: white;
-    color: black;
-}
 .menu2 {
     text-align: center;
-    background-color: gray;
+    background-color: black;
+    color: white;
 }
-.menu2 ul li a:hover{
-    color: black;
-}
-.menu2 li:hover{
-    background-color: white;
-    color: black;
-}
-.menu2 ul{
+.menu2 ul {
     list-style-type: none;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    text-align: center;
+    margin: auto;
 }
-.menu2 ul li {
+.menu2 ul li{
     text-decoration: none;
     color: white;
-    background-color: rgb(255, 153, 0);
     border-radius: 20px;
-    margin: 10px;
+    background-color: rgb(216, 115, 32);
+    width: 150px;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: auto;
+}
+.menu2 ul li:hover{
+    background-color: wheat;
+    color: black;
+}
+.menu3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.menu4 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.esemenyek {
+    background-color: rgba(169, 169, 169, 0.292);
+    color: white;
+    border-radius: 20px;
+    text-align: left;
+    border: 2.5px solid lightgray;
+    width: 90%;
+}
+.jatekok {
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
     padding: 10px;
+}
+.sgomb:hover a {
+    color: black;
+}
+
+.sgomb:hover {
+    background-color: wheat;
+}
+
+.szgomb:hover a {
+    color: black;
+}
+
+.szgomb:hover {
+    background-color: white;
+}
+.sgomb {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(216, 115, 32);
+    width: 150px;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: auto;
+}
+
+.szgomb {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid darkorange;
+    background-color: rgba(56, 56, 56, 0.874);
+    margin: auto;
+    width: 150px;
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+}
+img{
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+.img {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dobozok {
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
 }
